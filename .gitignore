@@ -1,0 +1,45 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environnements virtuels
+venv/
+.venv/
+env/
+
+# Variables d'environnement et secrets
+.env
+.env.*
+!.env.example
+
+# Dataset : éviter de publier les données
+dataset/raw/
+data/raw/
+*.csv
+
+# Modèles entraînés (fichiers potentiellement volumineux)
+models/*.joblib
+models/*.pkl
+models/*.pickle
+
+# Airflow logs et fichiers temporaires
+logs/
+airflow/logs/
+airflow.cfg
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Système
+.DS_Store
+Thumbs.db
